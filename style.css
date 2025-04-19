@@ -104,9 +104,12 @@ html, body{
         align-items: center;
         height: 80px;
         width: 100%;
-        z-index: 1;
         padding: 0;
-        position: relative;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #000; /* or whatever your navbar background is */
+        z-index: 1000;
     }
 
     #navbar_logo {
