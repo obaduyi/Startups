@@ -1,36 +1,39 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
 
-html, body{
+body {
     overflow-x: hidden;
-    
+    padding-top: 80px; /* Prevent content from hiding under fixed navbar */
 }
 
-.navbar{
-    background: black ;
+.navbar {
+    background: black;
     height: 80px;
+    width: 100%;
+    position: fixed; /* Changed from sticky to fixed */
+    top: 0;
+    z-index: 999;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position:sticky;
-    top: 0;
-    z-index: 999;
 }
 
-.navbar_container{
-    
+.navbar_container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 80px;
-    z-index: 1;
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
+    padding: 0 24px;
 }
+
 
 #navbar_logo{
     background-image: linear-gradient(to top, red 0%, pink 100%);
@@ -98,6 +101,11 @@ html, body{
 
 
 @media screen and (max-width: 768px) {
+    html, body{
+        overflow-x: hidden;
+        
+    }
+    
     .navbar_container {
         display: flex;
         justify-content: space-between;
