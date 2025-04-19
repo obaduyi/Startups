@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anjolaoluwa Obaduyi">
+    <title>Hackerton project</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        if (window.self !== window.top) {
+            window.top.location = window.location.href;
+        }
+    </script>
+    
+</head>
+ 
+<body>
+    <!--nav section  -->
+    <!-- HTML section -->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="#home" id="navbar_logo">Hackerton StartUps</a>
+            <div class="navbar_toggle" id="mobile_menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu" id="navbar_menu">
+                <li class="navbar_item">
+                    <a href="#home" class="navbar_links" id="home_page">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#about" class="navbar_links" id="about_page">About</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#services" class="navbar_links" id="services_page">Services</a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="/logout" class="button" id="log">Log Out</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <div class="hero" id="home">
+        <div class="hero_container">
+            <h1 class="hero_heading">Choose your <span>Project</span></h1>
+            <p class="hero_description"></p>
+            <button class="main_btn"><a href="#services">Start for Free</a></button>
+        </div>
+    </div>
+
+    <!-- /about section/  --> 
+    <div class="main" id="about">
+        <div class="main_container">
+            <div class="main_img_container">
+                <div class="main_imageCard"><i class="fas fa-layer-group"></i></div>
+            </div>
+            <div class="main_content">
+                <h1>What do we do?</h1>
+                <h2>We help businesses scale</h2>
+                <p>And Many More</p>
+                <button class="main_btn"><a href="#services">Get More with Plus+</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- /service section/ -->
+    <div class="services" id="services">
+        <h1>Our Services</h1>
+        <div class="services_wrapper">           
+            <div class="services_card">
+                <h2>Project One</h2>
+                <p>Messenger</p> 
+                <a class="services_btn" href="https://chatapp-ami1tn2qd-obaduyis-projects.vercel.app/"><button>Get Started</button></a>
+            </div>
+            <div class="services_card">
+                <h2>Project Two</h2>
+                <p>My Portfolio</p> 
+                <a class="services_btn" href="https://obaduyi.netlify.app/"><button>Get Started</button></a>
+            </div>
+            <div class="services_card">
+                <h2>Project Three</h2>
+                <p>Title?</p>
+                <div class="services_btn"><button>Get Started</button></div>
+            </div>
+            <div class="services_card">
+                <h2>Project Four</h2>
+                <p>Title?</p>       
+                <div class="services_btn"><button>Get Started</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- /feature section/ -->
+    <div class="main" id="sign_up">
+        <div class="main_container">
+            <div class="main_content">
+                <h1>Join Our Team</h1>
+                <h2>Sign Up Today</h2>
+                <p>See what makes us different</p>
+                <button class="main_btn" id="signInButton"><a href="/sign_up">Sign Up</a></button>
+            </div>
+            <div class="main_img_container">
+                <div class="main_imageCard" id="card_2">
+                    <i class="fas fa-users"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer_container">
+        <div class="footer_links">
+            <div class="footer_linkWrapper">
+                <div class="footer_linkItems">
+                    <h2>About Us</h2>
+                    <a href=#home> How it works</a>
+                    <a href=#home> Testimonials</a>
+                    <a href=#home>Careers</a>
+                    <a href=#home>Terms of Services</a>
+                </div>
+                <div class="footer_linkItems">
+                    <h2>Help</h2>
+                    <a href=#home>Contact Us</a>
+                    <a href=#home>Support</a>
+                    <a href=#home>Troubleshooting</a>
+                    <a href=#home>Status</a>
+                </div>
+            </div>
+            <div class="footer_linkWrapper">
+                <div class="footer_linkItems">
+                    <h2>Project</h2>
+                    <a href=#home>Submit video</a>
+                    <a href=#home>Download</a>
+                    <a href=#home>Agency</a>
+                    <a href=#home>All Versions</a>
+                </div>
+                <div class="footer_linkItems">
+                    <h2>Community</h2>
+                    <a href=#home> Instagram</a>
+                    <a href=#home>Twitter</a>
+                    <a href=#home>Youtube</a>
+                    <a href=#home>Facebook</a>
+                    <a href=#home>Linkedin</a>
+                </div>
+            </div>
+        </div>
+        <section class="social_media">
+            <div class="social_mediaWrap">
+                <div class="footer_logo">
+                    <a href="/" id="footer_logo">Hackerton project</a>
+                </div>
+                <p class="website_rights">© Hackerton project 2024. All rights reserved.</p>
+                <div class="social_icons">
+                    <a href="/" class="social_iconLink"><i class="fab fa-twitter"></i></a>
+                    <a href="/" class="social_iconLink" ><i class="fab fa-instagram"></i></a>
+                    <a href="/" class="social_iconLink" ><i class="fab fa-youtube"></i></a>
+                    <a href="/" class="social_iconLink" ><i class="fab fa-linkedin"></i></a>
+                    <a href="/" class="social_iconLink" ><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+
+        </section>
+    </div> 
+
+    <!-- Chat Ai -->
+    <button class="chatai-toggler">
+        <span class="material-symbols-outlined">Chat</span>
+        <span class="material-symbols-outlined">Close</span>
+    </button>
+    <div class="chatai">
+        <header>
+            <h2>ChatAi</h2>
+            <span class="close-btn material-symbols-outlined">Close</span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined"><!-- ai--></span> 
+                <p>Hi, <br>how can i help</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter message" required></textarea>
+            <span id="send-btn" class="material-symbols-outlined">Send</span>
+        </div>
+    </div>
+    <script src="interview.js"></script>
+    
+</body>
+</html>
